@@ -9,3 +9,10 @@ for x in movies:
 for x in range(5):
     print(x)
 
+# print a specific range
+for x in range(5,11):
+    print(x)
+
+
+
+
