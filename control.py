@@ -19,3 +19,4 @@ elif num == 0:  # [== equal sign]
 else :
     print("positive number")
 
+
