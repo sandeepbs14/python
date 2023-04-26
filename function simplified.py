@@ -13,5 +13,3 @@ user(i, j, k, l)
 
 print('----------------------------------------------------------------------')
 print()
-
-print("global and local variable")
