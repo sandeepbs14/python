@@ -11,3 +11,9 @@ for x in range(5):
 # print a specific range
 for x in range(5, 11):
     print(x)
+
+i = 1
+while i <= 5:
+    print(i * '😊')
+    i = i + 1
+
