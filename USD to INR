@@ -1,0 +1,12 @@
+print("----------currency converter-------")
+amount = float(input("enter amount: "))
+cash = input("entered in 'D'ollars or 'R'upees: ")
+if cash.upper() == "R":
+      unit = amount * 0.01220
+      print('Dollars: ' + str(unit))
+elif cash.upper() == "D":
+      unit = amount / 0.01220
+      print("Rupees: " + str(unit))
+      
+else:         
+ print('please correct the input')
