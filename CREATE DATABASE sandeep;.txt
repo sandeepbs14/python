@@ -1,0 +1,31 @@
+CREATE DATABASE sandeep;
+USE sandeep;
+CREATE TABLE test (
+id INT NOT NULL AUTO_INCREMENT,
+name VARCHAR(30) NOT NULL, 
+age INT ,
+class INT ,
+address VARCHAR(50),
+PRIMARY KEY (id)
+);
+SHOW TABLES;
+SELECT * FROM test;
+
+INSERT INTO test VALUES (1,'sandeep',23,8,'Karunagappally');
+INSERT INTO test VALUES (2,'anjana',26,10,'Karunagappally');
+
+ALTER TABLE test ADD pincode INT ;
+UPDATE test SET pincode = 590644 WHERE id = 1;
+UPDATE test SET pincode = 590644 WHERE id = 2;
+
+INSERT INTO test (name,age,class,address,pincode)
+VALUES ('abideez',31,12,'kallupalam',682020);
+
+UPDATE test SET address = 'Kadavantra' WHERE id = 3;
+INSERT INTO test (name,age,class,address,pincode)
+VALUES ('abinash',30,11,'kallupalam',682020),
+	   ('amritha',24,10,'Vavvakkav',NULL);
+       
+UPDATE test SET address = 'Kadavantra' WHERE id = 4;
+
+
